@@ -1,0 +1,232 @@
+body{
+    background-color: #f2f2f2;
+    font-family: "Montserrat", sans-serif;
+    color: #284767;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 28px 0;
+}
+
+.menu ul{
+    display: flex;
+    gap: 30px;
+}
+
+.menu ul li a{
+    color: #284767;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 28px 2px;
+    transition: 0.5s;
+}
+
+.menu ul li a:hover{
+    border-bottom: 2px solid #284767;
+    transition: 0.5s;
+}
+
+.brand h1 a{
+    text-decoration: none;
+    color: #284767;
+    font-weight: 900;
+    font-size: 28px
+}
+
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home .introduction{
+    width: 50%;
+    text-align: center;
+    gap: 20px;
+}
+
+.home .introduction h1{
+    padding: 15px 0;
+    font-weight: 700;
+    width: 75%;
+    font-size: 50px;
+}
+
+.home .introduction p{
+    width: 75%;
+    font-size: 18px;
+}
+
+.cellphone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cellphone picture{
+    margin: 0 auto;
+}
+
+.cellphone img{
+    width: 600px;
+    margin-top: 30px;
+    border-radius: 200px;
+}
+
+.about--us{
+    display: flex;
+    background-color: #284767;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.content-about{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.hero{
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+}
+
+.content-about h1, .know-how h1{
+    padding: 30px 0;
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+.hero p, .content-how p{
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    width: 50%;
+    text-align: justify;
+}
+
+.hero picture img{
+    width: 50%;
+}
+
+.project h1, .contact-us h1{
+    padding: 30px 0;
+    font-size: 36px;
+    font-weight: 500;
+    color: #284767;
+    text-align: center;
+}
+
+.project{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.content-project{
+    display: flex;
+    padding: 100px;
+}
+
+.content-project p{
+    font-size: 20px;
+    line-height: 30px;
+    width: 50%;
+    text-align: justify;
+}
+
+.iot-pic img{
+    width: 50%;
+}
+
+.iot-pic{
+    display: flex;
+    justify-content: end;
+}
+
+.know-how{
+    background-color: #284767;
+}
+
+.content-how{
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 100px
+}
+
+.arduino{
+    display: flex;
+    justify-content: start;
+}
+.content-how .arduino img{
+    width: 50%;
+}
+
+.contact-us{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.information p{
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+.information form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.information input[type=text], .information input[type=email]{
+    border: 1px solid #284767;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.information input[type=button]{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #284767;
+    border: 2px solid #f2f2f2;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.information input[type=button]:hover{
+    color: #284767;
+    background-color: #fff;
+    border: 2px solid #284767;
+    transition: 0.3s ease-in-out;
+}
+
+footer{
+    background-color: #284767;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
