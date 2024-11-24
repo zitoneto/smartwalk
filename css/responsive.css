@@ -3,28 +3,323 @@
     
 }
 
-/* xl */
-@media (max-width: 1280px) {
 
+/* xl - Macboook Air */
+@media (max-width: 1280px) {
+    .home .introduction h1{
+        padding: 0px 6px 15px 20px;
+    }
+
+    .home .introduction p{
+        padding: 0px 6px 15px 20px;
+    }
+
+    .arduino img{
+        width: auto;
+        height: auto;
+        min-width: 380px;
+    }
 }
 
-/* lg */
+
+/* lg começa por aqui, só diminuir o font-size*/
 @media (max-width: 1024px) {
     
+    .home .introduction h1{
+        font-size: 42px;
+        padding: 0px 6px 15px 20px;
+    }
+
+    .home .introduction p{
+        font-size: 16px;
+        padding: 0px 6px 15px 20px;
+    }
+
+    .iot-pic img{    
+        width: auto;
+        height: auto;
+        max-width: 250px;
+        padding-left: 130px;
+    }
+
+    .arduino img{
+        height: auto;
+        min-width: 350px; 
+    }
+
+    .content-how p{
+        font-size: 20px;
+        line-height: 30px;
+        max-width: 50%;
+        text-align: justify;
+    }
 }
 
-/* md */
+
+/* md - iPad Mini */
 @media (max-width: 768px) {
-    
-}
+
+    .menu ul{
+        display: flex;
+        gap: 15px;
+    }
+
+    .menu ul li a{
+        font-size: 15px;
+    }
+
+    .home .introduction h1{
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+        padding: 0px 6px 15px 30px;
+    }
+
+    .home .introduction p{
+        font-size: 15px;
+    }
+
+    .cellphone img{
+        width: 90%;
+        padding-left: 30px;
+    }
+
+    .about--us h1, .project h1, .know-how h1{
+        font-size: 25px;
+    }
+
+    .hero p, .content-project p, .content-how p{
+        font-size: 16px;
+        min-width: 300px;
+    }
+
+    .hero picture img{
+        margin-top: 35px;
+        max-width: none;
+    }
+
+    .iot-pic img{    
+        min-width: 120px;
+        padding-left: 50px;
+    }
+
+    .content-how {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        gap:20px;
+    }
+
+    .arduino img {
+        width: 20%;
+        height: auto;
+        max-width: 270px;
+    }
+
+    .content-how p {
+        width: 50%;
+        margin: 0;
+    }
+
+    .contact-us h1 {
+        font-size: 30px;
+    }
+
+    .information p{
+        font-size: 15px;
+    }
+
+}   
    
 
 /* sm */
 @media (max-width: 640px) {
     
+    .menu ul{
+        display: flex;
+        gap: 7px;
+    }
+
+    .menu ul li a{
+        font-size: 14px;
+    }
+
+    .about--us h1, .project h1, .know-how h1{
+        padding: 20px 0px 0px 10px;
+    }
+
+    .hero p, .content-project p, .content-how p{
+        font-size: 14px;
+        line-height: 20px;
+        min-width: 250px;
+    }
+
+    .hero picture img{
+        width: 90%;
+        margin-top: 35px;
+    }
+
+    .iot-pic img{  
+        width: 20%;
+        height: auto; 
+        min-width: 150px;
+    }
+
+    .arduino img {
+        width: 20%;
+        height: auto; 
+        min-width: 200px;
+        padding-left: 20px;
+    }
+
+    .contact-us h1 {
+        font-size: 28px;
+    }
+
+    .information p{
+        display: flex;
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
 }
+
+
+
 
 /* xs */
 @media (max-width: 475px) {
     
+    .brand h1 a{
+        font-size: 20px;
+    }
+
+    .menu ul{
+        display: flex;
+        gap: 3px;
+    }
+
+    .menu ul li a{
+        font-size: 8px;
+    }
+
+    .home .introduction h1{
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        padding: 0px 6px 15px 30px;
+    }
+
+    .home .introduction p{
+        font-size: 13px;
+    }
+
+    .cellphone img{
+        width: 95%;
+        padding-left: 1px;
+    }
+
+    .about--us h1, .project h1, .know-how h1{
+        padding: 20px 0px 0px 10px;
+        font-size: 20px;
+    }
+
+    .hero p, .content-project p, .content-how p{
+        font-size: 12px;
+        line-height: 16px;
+        min-width: 180px;
+        text-align: justify;
+    }
+
+    .hero{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .content-project{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .content-how{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero picture img{
+        width: 90%;
+        margin-top: 35px;
+        padding: 20px;
+    }
+
+    .iot-pic img{  
+        width: 20%;
+        height: auto; 
+        min-width: 80px;
+    }
+
+    .arduino img {
+        height: auto; 
+        min-width: 180px;
+    }
+
+    .contact-us h1 {
+        font-size: 28px;
+    }
+
+    .information p{
+        display: flex;
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    footer{
+        font-size: 10px;
+    }
+}
+
+.content-about, .content-project, .content-how, .hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.arduino, .iot-pic{
+    justify-content: start;
+    margin: 10px 0;
+}
+
+.home{
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.cellphone picture img{
+    border-radius: 0;
+    justify-content: center;
+}
+
+.welcome{
+    flex-direction: column;
+}
+
+.welcome .menu{
+    padding-top: 10px;
+}
+
+.menu ul li a{
+    font-size: 20px;
+}
+
+.menu ul{
+ display: none;
+}
+
+.our--team{
+    display: none;
 }
